@@ -1,7 +1,7 @@
 /*
 To test, go web Compiler https://www.onlinegdb.com/online_c_compiler
 Referenced code: http://www.geeksforgeeks.org/dynamic-programming-set-1/
-¾Æ·¡´Â integer ÃÖ´ë°ªÀ» 45·Î ÇÏ°í, ¼ø¼­´ë·Î °è¼Ó Ãâ·ÂÇÏ´Â °ÍÀ¸·Î ¼öÁ¤ÇÑ °ÍÀÌ´Ù.
+ì•„ë˜ëŠ” integer ìµœëŒ€ê°’ì„ 45ë¡œ í•˜ê³ , ìˆœì„œëŒ€ë¡œ ê³„ì† ì¶œë ¥í•˜ëŠ” ê²ƒìœ¼ë¡œ ìˆ˜ì •í•œ ê²ƒì´ë‹¤.
 */
 #include <stdio.h>
 #define NIL -1
@@ -23,7 +23,7 @@ int main(){
 	int i;
 	int fib_num=40;
 	for ( i=0; i<=MAX; i++ ) fib[i] = NIL;
-	printf ("Enter a number of Fibonacci between 0~45 :");
+	printf ("Enter a sequence order of Fibonacci between 0~45 :");
 	scanf ("%d", &fib_num);
 
 	/*calculate fibonacci*/
