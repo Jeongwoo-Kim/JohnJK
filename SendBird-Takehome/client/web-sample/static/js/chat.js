@@ -1,4 +1,5 @@
-var appId = '9DA1B1F4-0BE6-4DA8-82C5-2E81DAB56F23';
+//JohnJK var appId = '9DA1B1F4-0BE6-4DA8-82C5-2E81DAB56F23';
+var appId = '354E8CD8-C1F2-48FA-878D-0AEF2A695DC6';
 var currScrollHeight = 0;
 var MESSAGE_TEXT_HEIGHT = 27;
 
@@ -563,6 +564,7 @@ function startMessaging() {
       addGroupChannel(true, channelMemberList, currChannelInfo);
       $('.chat-input-text__field').attr('disabled', false);
     });
+    alert("JohnJK admin message:You miss 100% of the shots you don't take - Wayne Gretzky"+"\n"+"JohnJK data: {'author':'Michael Scott'}")
   };
 
   var isDistinct;
