@@ -17,7 +17,7 @@ class ConfigFileSingleton(object):
             self.change_propertie(input_properties_path)
         return result
     
-    properties_path = 'sendbird-takehome.conf'
+    properties_path = 'sbtakehome.conf'
 
     myprops = {}
     
