@@ -8,7 +8,7 @@ idna==2.7
 influxdb==5.2.1
 ipaddress==1.0.22
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 maxminddb==1.4.1
 python-dateutil==2.7.5
